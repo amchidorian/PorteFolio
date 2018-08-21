@@ -98,6 +98,45 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-pack" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-minify" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-symfony" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-react" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-stylus" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-less" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-markdown" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-assets" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug-filter-coffee-script" />
+      <path value="$PROJECT_DIR$/vendor/pug-php/pug" />
+      <path value="$PROJECT_DIR$/vendor/pug/installer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/phug/util" />
+      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/nodejs-php-fallback" />
+      <path value="$PROJECT_DIR$/vendor/phug/reader" />
+      <path value="$PROJECT_DIR$/vendor/phug/renderer" />
+      <path value="$PROJECT_DIR$/vendor/phug/parser" />
+      <path value="$PROJECT_DIR$/vendor/phug/phug" />
+      <path value="$PROJECT_DIR$/vendor/phug/js-transformer-filter" />
+      <path value="$PROJECT_DIR$/vendor/phug/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phug/event" />
+      <path value="$PROJECT_DIR$/vendor/phug/formatter" />
+      <path value="$PROJECT_DIR$/vendor/phug/compiler" />
+      <path value="$PROJECT_DIR$/vendor/phug/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/phug/ast" />
+      <path value="$PROJECT_DIR$/vendor/natxet/CssMin" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/stylus" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/coffeescript" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/less.php" />
+      <path value="$PROJECT_DIR$/vendor/js-phpize/js-phpize-phug" />
+      <path value="$PROJECT_DIR$/vendor/js-transformer/js-transformer" />
+      <path value="$PROJECT_DIR$/vendor/js-phpize/js-phpize" />
+      <path value="$PROJECT_DIR$/vendor/gkralik/php-uglifyjs" />
+      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/react" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/uglify" />
+      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/coffeescript" />
+      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/less" />
+      <path value="$PROJECT_DIR$/vendor/nodejs-php-fallback/stylus" />
+      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
