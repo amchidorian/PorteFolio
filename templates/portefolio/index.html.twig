@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/css/semantic.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/css/background.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/css/home.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/css/navbar.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/css/about.css') }}">
+{% endblock %}
+
+{% block body %}
+    <div class="ui grid content">
+        <div class="sixteen wide column home_section" style="display: none;">
+            {% include './portfolio/section/home.html.twig' %}
+        </div>
+        <div class="sixteen wide column navbar_section">
+
+            {% include './portfolio/section/navbar.html.twig' %}
+        </div>
+    </div>
+    <div class="ui grid content" id="context">
+        {% include './portfolio/section/social.html.twig' %}
+        <div class="sixteen wide column about_section" style="background-color: red">
+            {% include './portfolio/section/about.html.twig' %}
+        </div>
+        <div class="sixteen wide column about_section" style="background-color: darkgreen">
+            {% include './portfolio/section/project.html.twig' %}
+        </div>
+        <div class="sixteen wide column about_section" style="background-color: blue">
+            {% include './portfolio/section/skills.html.twig' %}
+        </div>
+        <div class="sixteen wide column about_section" style="background-color: pink">
+            {% include './portfolio/section/contact.html.twig' %}
+        </div>
+    </div>
+{% endblock %}
+
+    {% block javascripts %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="{{ asset('build/js/background.js') }}"></script>
+        <script src="{{ asset('build/js/home.js') }}"></script>
+        <script src="{{ asset('build/js/navbar.js') }}"></script>
+        <script src="{{ asset('build/js/about.js') }}"></script>
+    {% endblock %}
