@@ -21,10 +21,12 @@ Encore
     .addEntry('/js/background', './assets/js/background.js')
     .addEntry('/js/home', './assets/js/home.js')
     .addEntry('/js/navbar', './assets/js/navbar.js')
+    .addEntry('/js/about', './build/js/about.js')
     .addStyleEntry('/css/semantic', './node_modules/semantic-ui/dist/semantic.css')
     .addStyleEntry('/css/background', './assets/css/background.css')
     .addStyleEntry('/css/home', './assets/css/home.css')
     .addStyleEntry('/css/navbar', './assets/css/navbar.css')
+    .addStyleEntry('/css/about', './build/css/about.css')
     //.addEntry('page1', './assets/js/page1.js')
     //.addEntry('page2', './assets/js/page2.js')
 
