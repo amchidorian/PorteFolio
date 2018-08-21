@@ -18,7 +18,9 @@ Encore
      * and one CSS file (e.g. app.css) if you JavaScript imports CSS.
      */
     .addEntry('/js/semantic', './node_modules/semantic-ui/dist/semantic.js')
+    .addEntry('/js/about', './build/js/about.js')
     .addStyleEntry('/css/semantic', './node_modules/semantic-ui/dist/semantic.css')
+    .addStyleEntry('/css/about', './build/css/about.css')
     //.addEntry('page1', './assets/js/page1.js')
     //.addEntry('page2', './assets/js/page2.js')
 
