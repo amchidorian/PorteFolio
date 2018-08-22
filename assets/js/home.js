@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    console.log($(window).height())
+    $('.home_section').width($(window).width());
+    $('.home_section').height($(window).height());
+
+    console.log($('.home_section').height())
     ajustContent();
     resizeText();
     var timeOut = setTimeout(function () {
@@ -35,8 +40,6 @@ $(window).resize(function () {
 });
 
 function ajustContent() {
-    $('.home_section').width($(window).width());
-    $('.home_section').height($(window).height());
     $('.home_resume').width(400);
     $('.home_resume').height(400);
     var sectionW = $('.home_section').width();
