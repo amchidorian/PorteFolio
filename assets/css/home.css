@@ -1,6 +1,6 @@
 .home_section {
     position: absolute;
-    padding: 0!important;
+    padding: 0 !important;
     top: 0 !important;
     left: 0;
     z-index: 10;
@@ -14,4 +14,8 @@
 
 .home_button {
     padding-top: 20px;
+}
+
+.home_text{
+    color: white;
 }
