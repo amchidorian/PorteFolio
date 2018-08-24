@@ -1,5 +1,7 @@
 $(document).ready(function () {
     var winH = $(window).height();
+    $('.row_name').height(winH / 6)
+    $('.row_about').height(winH * 5 / 6)
     var aboutGridW = $('.about_grid').width();
     $('.about_section').height(winH);
     $('.segment_about').height($(window).height());
