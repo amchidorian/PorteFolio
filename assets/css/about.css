@@ -1,6 +1,18 @@
-.about_section{
-    position : absolute;
-    top : 0;
+.about_section {
+    position: absolute;
+    top: 0;
     padding-bottom: 0 !important;
     padding-top: 0 !important;
+    background-color: rgba(53, 53, 28, 0.13);
+}
+
+.about_grid {
+    position: absolute;
+    top: 0 !important;
+}
+
+.about_name {
+    width: 100% !important;
+    text-align: center;
+    font-size: 50px !important;
 }
