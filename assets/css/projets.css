@@ -1,0 +1,24 @@
+.projet_section{
+    padding: 0 !important;
+}
+
+.row_projet{
+    position: relative;
+    top: 0;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.item_projet{
+    height: 200px;
+}
+
+.row_option{
+    position: relative;
+    top: 0 !important;
+}
+
+.projet{
+    position : absolute !important;
+    top: 0 !important;
+}

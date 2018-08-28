@@ -1,0 +1,21 @@
+.home_section {
+    position: absolute;
+    padding-bottom: 0 !important;
+    top: 0 !important;
+    left: 0;
+    z-index: 10;
+}
+
+.home_resume {
+    position: absolute;
+    width: 400px !important;
+    height: 0px !important;
+}
+
+.home_button {
+    padding-top: 20px;
+}
+
+.home_text{
+    color: white;
+}

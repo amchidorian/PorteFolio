@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('build/css/home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('build/css/navbar.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('build/css/about.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/css/projets.css') }}">
 {% endblock %}
 
 {% block body %}
-    <div class="ui grid content">
+    <div class="ui grid content grid_home_navbar">
         <div class="sixteen wide column home_section" style="display: none;">
             {% include './portfolio/section/home.html.twig' %}
         </div>
@@ -25,7 +26,7 @@
         <div class="sixteen wide column about_section" style="background-color: red">
             {% include './portfolio/section/about.html.twig' %}
         </div>
-        <div class="sixteen wide column about_section" style="background-color: darkgreen">
+        <div class="sixteen wide column projet_section">
             {% include './portfolio/section/project.html.twig' %}
         </div>
         <div class="sixteen wide column about_section" style="background-color: blue">
@@ -38,9 +39,11 @@
 {% endblock %}
 
     {% block javascripts %}
+        <script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script src="{{ asset('build/js/background.js') }}"></script>
         <script src="{{ asset('build/js/home.js') }}"></script>
         <script src="{{ asset('build/js/navbar.js') }}"></script>
         <script src="{{ asset('build/js/about.js') }}"></script>
+        <script src="{{ asset('build/js/projets.js') }}"></script>
     {% endblock %}
