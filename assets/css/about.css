@@ -16,3 +16,27 @@
     text-align: center;
     font-size: 50px !important;
 }
+
+.row_about{
+    padding: 0 !important;
+}
+
+.row_name{
+    padding: 0 !important;
+}
+
+.row_skills{
+    padding: 0 !important;
+}
+
+.skill_icon_back, .skill_icon_front,.skill_icon_full{
+    position: relative;
+}
+
+.front_head, .full_head, .back_head{
+    position: relative;
+}
+
+.front_title, .back_title, .full_title{
+    text-align: center;
+}
