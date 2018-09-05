@@ -1,19 +1,35 @@
 $(document).ready(function () {
-    var winH = $(window).height();
-    $('.row_name').height(winH / 6)
-    $('.row_about').height(winH * 5 / 6)
-    var aboutGridW = $('.about_grid').width();
-    $('.about_section').height(winH);
-    $('.segment_about').height($(window).height());
-    var rowNameH = $('.row_name').height();
-    var rowNameW = $('.row_name').width();
-    var rowAboutH = $('.row_about').height();
-    var nameAboutW = $('.about_name').width();
-    $('.row_about').css({top: winH / 2 - rowAboutH / 2 - rowNameH});
-    var rowAboutT = $('.row_about').position().top;
-    $('.row_name').css({top: rowAboutT / 2 - rowNameH / 2});
-    textAnimation();
-    // $('.row_name').css({left: aboutGridW / 2 - nameAboutW / 2});
+    var timeOut = setTimeout(function () {
+        if (timeOut) {
+            var winH = $(window).height();
+            var navbar = $(".navbar").height();
+            var aboutSectionH = (winH - navbar) * 2;
+            $('.about_section').height(aboutSectionH);
+            $('.row_name').height(aboutSectionH * 0.1);
+            $('.row_about').height(aboutSectionH * 0.45);
+            $('.row_skills').height(aboutSectionH * 0.45);
+            var rowSkillH = $('.row_skills').height();
+            var rowAboutW = $('.row_about').width();
+            $('.row_tab').width(rowAboutW * 0.9).css({left: (rowAboutW * .05), top: -50})
+            $(".column_back").height(rowSkillH);
+            $(".column_full_stack").height(rowSkillH);
+            $(".column_front").height(rowSkillH);
+            $(".back_head").height(rowSkillH / 3)
+            $(".full_head").height(rowSkillH / 3)
+            $(".front_head").height(rowSkillH / 3)
+            $(".back_body").height(rowSkillH * 2 / 3)
+            $(".full_body").height(rowSkillH * 2 / 3)
+            $(".front_body").height(rowSkillH * 2 / 3)
+            $(".skill_icon_front").css({left : ($(".skill_icon_front").parent().width())/2 - ($(".skill_icon_front").width()/2)})
+            $(".skill_icon_back").css({left : ($(".skill_icon_back").parent().width())/2 - ($(".skill_icon_back").width()/2)})
+            $(".skill_icon_full").css({left : ($(".skill_icon_full").parent().width())/2 - ($(".skill_icon_full").width()/2)})
+            $(".front_head").css({top : 20})
+            $(".back_head").css({top : 20})
+            $(".full_head").css({top : 20})
+            textAnimation();
+            clearTimeout(timeOut);
+        }
+    }, 600);
 });
 
 //TEXT ANIMATION//
