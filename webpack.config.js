@@ -19,10 +19,13 @@ Encore
      */
     .addEntry('/js/semantic', './node_modules/semantic-ui/dist/semantic.js')
     .addEntry('/js/about', './assets/js/about.js')
+    .addEntry('/js/projets', './assets/js/projets.js')
     .addStyleEntry('/css/semantic', './node_modules/semantic-ui/dist/semantic.css')
+    .addStyleEntry('/css/background', './assets/css/background.css')
+    .addStyleEntry('/css/home', './assets/css/home.css')
+    .addStyleEntry('/css/navbar', './assets/css/navbar.css')
     .addStyleEntry('/css/about', './assets/css/about.css')
-    //.addEntry('page1', './assets/js/page1.js')
-    //.addEntry('page2', './assets/js/page2.js')
+    .addStyleEntry('/css/projets', './assets/css/projets.css')
 
     /*
      * FEATURE CONFIG
@@ -46,5 +49,7 @@ Encore
     // uncomment if you're having problems with a jQuery plugin
     //.autoProvidejQuery()
 ;
+
+var Encore = require('@symfony/webpack-encore');
 
 module.exports = Encore.getWebpackConfig();
