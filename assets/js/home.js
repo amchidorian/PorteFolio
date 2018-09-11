@@ -14,7 +14,7 @@ $(document).ready(function () {
     }, 500);
     var timeOut1 = setTimeout(function () {
         if (timeOut1) {
-            textAnimation()
+            textAnimation();
             clearTimeout(timeOut1);
         }
     }, 1000);

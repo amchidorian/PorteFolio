@@ -26,6 +26,9 @@ $(document).ready(function () {
             $(".front_head").css({top : 20})
             $(".back_head").css({top : 20})
             $(".full_head").css({top : 20})
+            $(".about_name").css({top:50});
+            $(".about_image").css({top : ($(".about_image").parent().height()/2) - ($(".about_image").height()/2),
+                left : ($(".about_image").parent().width()/2) - ($(".about_image").width() /2)})
             textAnimation();
             clearTimeout(timeOut);
         }
