@@ -3,11 +3,11 @@ $(document).ready(function () {
         if (timeOut) {
             var winH = $(window).height();
             var navbar = $(".navbar").height();
-            var aboutSectionH = (winH - navbar) * 2;
+            var aboutSectionH = (winH - navbar) * 1.5;
             $('.about_section').height(aboutSectionH);
             $('.row_name').height(aboutSectionH * 0.1);
-            $('.row_about').height(aboutSectionH * 0.45);
-            $('.row_skills').height(aboutSectionH * 0.45);
+            $('.row_about').height(aboutSectionH * 0.4);
+            $('.row_skills').height(aboutSectionH * 0.5);
             var rowSkillH = $('.row_skills').height();
             var rowAboutW = $('.row_about').width();
             $('.row_tab').width(rowAboutW * 0.9).css({left: (rowAboutW * .05), top: -50})

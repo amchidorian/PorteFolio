@@ -3,7 +3,6 @@
     top: 0;
     padding-bottom: 0 !important;
     padding-top: 0 !important;
-    background-color: rgba(53, 53, 28, 0.13);
 }
 
 .about_grid {
@@ -17,6 +16,12 @@
     font-size: 50px !important;
     position: relative;
     top: 50px !important;
+}
+
+.progress{
+    position : absolute;
+    width: 70%;
+    left: 15%;
 }
 
 .row_about{
@@ -37,6 +42,7 @@
 
 .front_head, .full_head, .back_head{
     position: relative;
+    top: 20px;
 }
 
 .front_title, .back_title, .full_title{
